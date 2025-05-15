@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Un Nuovo Capitolo</title>
+  <link rel="stylesheet" href="capolavoro.css" />
+  <link rel="stylesheet" href="capolavoro_section.css" />
+  <link rel="stylesheet" href="capolavoro_texts.css" />
+  <link rel="stylesheet" href="capolavoro_tooltip.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <img id="paperPlane" src="images/paper_plane.svg" >
+    <div id="cursore-personalizzato" class="cursore-personalizzato"></div>
+
+
+    <div class="layout">
+      <div class="sidebar left"></div>
+      <div class="content">
+        <div class="header-container">
+          <header>
+              <h1>Un Nuovo Capitolo</h1>
+              <h3 id="subtitle"><i>Capolavoro Unica</i></h3>
+          </header>
+        </div>
+
+        <section>
+          <p class="animate-on-scroll" id="presentazione">Benvenuti! In questa pagina racconto un'esperienza che non ha segnato solo il mio anno scolastico, ma la mia vita: il trasferimento.</p>
+
+
+
+          <p class="animate-on-scroll" id="presentazione">
+            Sono nato e cresciuto a <span id="tooltip">
+             <span id="Palermo">Palermo</span> <span id="tooltip-text"> È luogo d'origine della lingua e della letteratura siciliana, oltre che di una rinomata tradizione culinaria.
+               È depositaria di alcune delle più importanti e famose tradizioni artistiche dell'isola, come l'Opera dei Pupi e il Carretto siciliano.
+                Molto noti sono anche i mercati storici di Ballarò, Vucciria e Capo.</span></span> insieme alla famiglia e agli amici. È qui che ho sempre frequentato la scuola,
+            coltivando amicizie e passioni che mi hanno sempre accompagnato. Ma quest'anno le cose cambiano: vado a vivere
+            dall'altra parte dell'Italia, a Monza.
+          </p>
+
+          
+
+
+
+          <div class="section-with-border">
+              <h2 class="animate-on-scroll"><i>Prime impressioni e sensazioni</i></h2>
+              <p class="animate-on-scroll" id="sensazioni">
+                Ero entusiasta del cambiamento e sapevo che molte cose sarebbero state diverse.
+
+                Ero ansioso di scoprire la mia nuova scuola, di esplorare gli spazi, di conoscere gli insegnanti e soprattutto i nuovi compagni di classe. Immaginavo i volti, i corridoi, le aule, le prime conversazioni.
+                
+                Il primo giorno di scuola parve non arrivare mai. Le ore che mi separavano da quel momento sembravano dilatarsi all'infinito.
+                
+                Quando finalmente arrivò quel giorno, mi sentii pronto, con la speranza che quello fosse solo l'inizio di qualcosa di bello e significativo
+                
+              </p>
+          </div>
+          <div id="slider" class="animate-on-scroll">
+            <div class="slides">
+                <img class="slide" src="images/cannolo_siciliano_palermo.jpg">
+                <img class="slide" src="images/palermo.jpg">
+                <img class="slide" src="images/palermo_mondello.jpg">
+                <img class="slide" src="images/carretto_siciliano.webp">
+                <img class="slide" src="images/pupi.jpg">
+            </div>
+            <button class="prev" onclick="prevSlide()">&#10094</button>
+            <button class="next" onclick="nextSlide()">&#10095</button>
+        </div>
+
+
+          <div id="diffContainer">
+            <img src="images/airplane.png" alt="aereo" id="airplane">
+            <div id="diffBar">
+              <h2 class="animate-on-scroll" id="diffTitle"><i>Difficoltà</i></h2>
+              <p class="animate-on-scroll" id="difficoltà">
+                  Le difficoltà non mancarono: nuove abitudini, conoscenze e luoghi. Dovetti adattarmi, conoscere la nuova città, la nuova scuola e i compagni. Inoltre la nostalgia era ben presente e
+                  le vacanze a Palermo diventarono i momenti più attesi dell'anno, e le spendevo insieme alla famiglia e agli amici. Il momento peggiore era la fine delle vacanze, dove salutavo
+                  tutti quanti per rivederli la prossima volta, non sapendo quando sarebbe stata
+              </p>
+          </div>
+          </div>
+
+          <div class="section-with-border">
+            <h2 class="animate-on-scroll"><i>Cosa ho imparato</i></h2>
+            <p class="animate-on-scroll" id="imparato">
+              Il trasferimento mi ha marcato profondamente e mi ha permesso di vivere esperienze nuove, diverse da quelle a cui ero abituato. Ogni cambiamento, inizialmente, porta con sé un senso di incertezza, ma nel mio caso ha rappresentato anche una grande opportunità di crescita.
+              Mi sono ritrovato immerso in un ambiente completamente nuovo, con persone, abitudini e metodi di studio differenti.
+              Ho imparato ad adattarmi, ad affrontare le difficoltà con maggiore autonomia e a sviluppare un approccio più maturo e consapevole verso la mia formazione.
+              Questo cambiamento mi ha insegnato a uscire dalla mia "comfort zone", ad aprirmi a nuove prospettive e a valorizzare il confronto con chi ha vissuti e punti di vista diversi dai miei.
+              Mi ha aperto a un nuovo modo di studiare, e mi ha spinto ad affrontare nuove sfide con determinazione e curiosità.
+              Soprattutto, mi ha mostrato che il cambiamento, se vissuto con apertura e spirito di adattamento, può essere un potente motore di trasformazione personale.
+              Oggi guardo a quest'esperienza come a un punto di svolta, che mi ha preparato ad affrontare con maggiore sicurezza le strade che ancora mi attendono.
+            </p>
+            <a href="https://www.frisimonza.edu.it/" target="_blank"><img src="images/frisi.jpg" alt="Liceo Paolo Frisi" id="frisi" class="animate-on-scroll"></a>
+          </div>
+        </section>
+      </div>
+      <div class="sidebar right"></div>
+  </div>
+
+  <script src="capolavoro.js"></script>
+</body>
+</html>

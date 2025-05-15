@@ -1,0 +1,22 @@
+h1 {
+    margin: 0;
+    font-size: clamp(2.5rem, -1.7rem + 9.6vw, 3.7rem);
+    font-family: Montserrat;
+    font-weight: 700;
+  }
+  
+  
+  h2 {
+    font-size: clamp(1.9rem, 1.4rem + 1.333vw, 2.6rem);
+    font-weight: 400;
+    color: #006bcc;
+    margin-top: 8%;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  
+  p {
+    font-size: clamp(1.2rem, 0.914rem + 0.762vw, 1.6rem); 
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }

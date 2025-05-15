@@ -1,0 +1,44 @@
+#Palermo{
+    color: #005cb5;
+    font-weight: 600;
+  }
+
+#tooltip {
+    position: relative;
+    cursor:default;
+    display: inline-block;
+  }
+  
+  
+  #tooltip-text {
+    width: 350%;
+    visibility: hidden;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #005cb5;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: clamp(0.7rem, 0.486rem + 0.571vw, 1rem);
+    z-index: 10;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor:default;
+  }
+  
+  #tooltip:hover #tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+
+@media (max-width: 728px){
+  #tooltip-text{
+    width:230%;
+    left: 100%;
+  }
+}
